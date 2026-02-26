@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Classics</title>
+    <style>
+        :root {
+            --txt-clr: linear-gradient(45deg, #000)
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        .hero{
+            min-height: 100vh;
+            background-image: url("gew.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 98%;
+            padding: 5px 0;
+            margin: auto;
+            border-bottom: 2px solid black;
+        }
+
+        .logo{
+            width: 150px;
+        }
+
+        nav ul{
+            display: flex;
+            align-items: center;
+        }
+
+        nav ul li{
+            margin: 0 20px;
+        }
+
+        nav ul li a{
+            font-size: 15px;
+            color: black;
+            text-transform: uppercase;
+        }
+
+        nav ul li a:hover{
+            color: black;
+            border-bottom: 2px solid black;
+        }
+
+        nav button{
+            padding: 11px 35px;
+            background: transparent;
+            color: black;
+            border-radius: 2rem;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .3s;
+        }
+        
+        nav button:hover{
+            border: 2px solid black;
+            color: black;
+            scale: .8;
+            box-shadow: 0 0 20px black;
+        }
+
+        .content{
+            position: absolute;
+            top: 35%;
+            left: 90px;
+        }
+
+        h2{
+            color: #fff;
+            font-size: 52px;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        h2 span{
+            background:var(--txt-clr);
+            -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+        }
+
+        p{
+            font-size: 11px;
+            margin-top: 10px;
+            color: black;
+        }
+
+        .content button{
+            margin-top: 50px;
+            padding: 12px 45px;
+            background: #fff;
+            color: white;
+            border: none;
+            border-radius: 2rem;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .content button:hover{
+            scale: .9;
+        }
+
+        .content button.know_more{
+            border: 2px solid black;
+            color: black;
+            margin-left: 25px;
+            background: transparent;
+        }
+
+        .content button.know_more:hover{
+            border: 2px solid black;
+            color: black;
+            scale: .8;
+            box-shadow: 0 0 30px  black;
+        }
+
+        body{
+            background-image: url("BG22.jpg");
+            height: 100vh;
+           
+        }
+
+    </style>
+</head>
+<body style="background-color: white;">
+    <table border="0" align="center" width="1500px">
+        <div>
+            <nav style="background-color: white;">
+            <img src="Mainlogo.png" class="logo">
+
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Products.html">Products</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <button>more</button>
+        </nav>
+        </div>
+
+        <tr style="text-align: center; color: white; font-family: sans-serif;">
+        <td style="font-size: 20px;">
+        <br><img src="First1.png" style="width: 200px;">
+        <br>"Vintage 70's"<br>$299</td>
+        <td style="font-size: 20px;">
+        <br><img src="first2.png" style="width: 200px;">
+        <br>"Vintage 1960's"<br>$499</td>
+         <td style="font-size: 20px;">
+        <br><img src="First3.png" style="width: 200px;">
+        <br>"Vintage 50's"<br>$399</td>   
+        </tr>
+
+    </table>
+     <hr style="font-size: 95%; background-color: white; height: 5px;">
+     <table border="0" align="center" width="1500px">
+        <tr style="text-align: center; color: white; font-family: sans-serif;">
+        <td style="font-size: 20px;">
+        <br><img src="Sec1.png" style="width: 200px;">
+        <br>"Loake 200b"<br>$499</td>
+        <td style="font-size: 20px;">
+        <br><img src="Sec2.png" style="width: 200px;">
+        <br>"White Wingtip Oxsford"<br>$299</td>
+         <td style="font-size: 20px;">
+        <br><img src="Sec3.png" style="width: 200px;">
+        <br>"Cap-Toe Double Monk Strap"<br>$199</td>   
+        </tr>
+
+    </table>
+    <hr style="background-color: white; font-size: 90%; height: 5px;">
+     <table border="0" align="center" width="1500px">
+        <tr style="text-align: center; color: white; font-family: sans-serif;">
+        <td style="font-size: 20px;">
+        <br><img src="Third1.png" style="width: 200px;">
+        <br>"1461 Smooth Leather"<br>$299</td>
+        <td style="font-size: 20px;">
+        <br><img src="Third2.png" style="width: 200px;">
+        <br>"Year of the Snake"<br>$299</td>
+         <td style="font-size: 20px;">
+        <br><img src="Third3.png" style="width: 200px;">
+        <br>"Our legacy Workshop"<br>$499</td>   
+        </tr>
+     </table> 
+
+     <hr style="background-color: black; font-size: 90%; height: 5px;">
+     <table border="0" align="center" width="1500px">
+        <tr style="text-align: center; color: white; font-family: sans-serif;">
+        <td style="font-size: 20px;">
+        <br><img src="fourth1.png" style="width: 200px;">
+        <br>"Leather Grandado"<br>$199</td>
+        <td style="font-size: 20px;">
+        <br><img src="fourth2.png" style="width: 200px;">
+        <br>"DTNOW Leather"<br>$299</td>
+         <td style="font-size: 20px;">
+        <br><img src="Fourth3.png" style="width: 200px;">
+        <br>"Flat Grandado"<br>$499</td>   
+        </tr>
+     </table> 
+
+     <hr style="background-color: black; font-size: 90%; height: 5px;">
+     <table border="0" align="center" width="1500px">
+        <tr style="text-align: center; color: #fff; font-family: sans-serif;">
+        <td style="font-size: 20px;">
+        <br><img src="fifth1.png" style="width: 200px;">
+        <br>"Apex"<br>$399</td>
+        <td style="font-size: 20px;">
+        <br><img src="fifth2.png"  style="width: 200px;">
+        <br>"Clark"<br>$299</td>
+         <td style="font-size: 20px;">
+        <br><img src="Fourth3.png"  style="width: 200px;">
+        <br>"Apex"<br>$399</td>   
+        </tr>
+     </table> 
+</body>
+</html>
